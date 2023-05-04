@@ -1,0 +1,13 @@
+build and install all modules with:
+
+mvn clean install
+
+then for swing:
+go to conway_swing and run: 
+
+java -jar ./target/conway_swing-final.jar
+
+then for cli (command line):
+go to conway_cli_run and run:
+
+mvn conway_cli:game

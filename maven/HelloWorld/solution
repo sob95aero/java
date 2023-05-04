@@ -1,0 +1,25 @@
+mvn package
+
+java -cp ./target/hello-world-1.0-SNAPSHOT.jar net.homecredit.clazz.IAmGood
+
+
+version 2:
+
+<build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+
+        <configuration>
+          <archive>
+
+            <manifest>
+                <mainClass>net.homecredit.clazz.IAmGood</mainClass>
+            </manifest>
+
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>

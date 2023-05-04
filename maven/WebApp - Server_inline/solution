@@ -1,0 +1,4 @@
+mvn jetty:run
+
+(it will start jetty plugin with run goal and local server on localhost:8080 with message: I am stronger and stronger, muhahaha!)
+ps: to stop it pres CTRL+C and confirm - it will stop the server and release 8080 port

@@ -1,0 +1,4 @@
+mvn spring-boot:run
+
+(it will run the server on localhost:8080 with message Hail to you Champion!)
+ps: to stop it pres CTRL+C and confirm - it will stop the server and release 8080 port

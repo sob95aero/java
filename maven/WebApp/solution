@@ -1,0 +1,3 @@
+mvn package
+
+(it will prepare war archive in /target folder to deploy to server)

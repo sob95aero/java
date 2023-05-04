@@ -1,0 +1,3 @@
+mvn spring-boot:run
+
+(and it will write in console: Hello from Spring boot! before the build finish)
